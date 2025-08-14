@@ -55,3 +55,19 @@ tfoot {
   background-color: cadetblue;
   color: darkblue;
 }
+
+/* 
+p::first-letter {
+  font-size: 140%;
+  color: pink;
+} */
+
+/* All selections will be highlighted pink */
+::selection {
+  background-color: pink;
+}
+
+/* only paragraph selections will be highlighted pink */
+p::selection {
+  background-color: pink;
+}

@@ -47,3 +47,11 @@ tfoot {
   background-color: gold;
   width: 300px;
 }
+
+/* > for stying parent paragraph only */
+/* + for direct sibling styling */
+/* ~ for styling all paragraphs  */
+#love > p {
+  background-color: cadetblue;
+  color: darkblue;
+}

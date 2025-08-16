@@ -1,6 +1,6 @@
 /* body is a selector */
 body {
-  margin: 10px
+  margin: 10px;
 }
 
 .profile {
@@ -51,10 +51,10 @@ tfoot {
 /* > for stying parent paragraph only */
 /* + for direct sibling styling */
 /* ~ for styling all paragraphs  */
-#love > p {
+/* #love > p {
   background-color: cadetblue;
   color: darkblue;
-}
+} */
 
 /* 
 p::first-letter {
@@ -70,4 +70,39 @@ p::first-letter {
 /* only paragraph selections will be highlighted pink */
 p::selection {
   background-color: pink;
+}
+
+h1 {
+  color: dodgerblue;
+}
+
+.highlight {
+  color: deeppink;
+}
+
+#heading {
+  color: fuchsia;
+}
+
+.para {
+  color: rgb(244, 149, 26);
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  /* background-color: rgba(230, 205, 16, 0.5); */
+  /* background-color: hsl(53deg 93% 51%); */
+  /* background: linear-gradient(45deg, dodgerblue, rgb(250, 6, 254) 70%); */
+  background: radial-gradient(circle at top left, dodgerblue, rgb(250, 6, 254));
+  border: 3px solid rgb(0, 238, 255);
+  border-width: 5px 6px 5px 6px; /* trbl */
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(183, 183, 233); /* first value is the horizontal distance and second is the vertical distance 3rd value for how much sofy we want the shadow ro be*/
+}
+
+#box {
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 30px white ;
 }
